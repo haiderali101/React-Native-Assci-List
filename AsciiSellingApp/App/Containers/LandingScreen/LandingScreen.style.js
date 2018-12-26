@@ -8,6 +8,7 @@ export default StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     backgroundColor: '#F5FCFF',
+    padding: 10,
   },
   topContainer: {
     height: 100,
@@ -24,6 +25,7 @@ export default StyleSheet.create({
     borderColor: 'purple',
     borderRadius: 15,
     padding: 10,
+    marginTop: 10,
   },
   sortingContainer: {
     flex: 1 / 8,
@@ -76,7 +78,7 @@ export default StyleSheet.create({
   flatListItem: {
     flex: 1,
     flexDirection: 'row',
-    height: 70,
+    height: 100,
     padding: 10,
     borderBottomWidth: 1,
     borderBottomColor: 'rgba(133,133,133,0.3)',
@@ -122,5 +124,19 @@ export default StyleSheet.create({
   },
   whiteColorText: {
     color: 'white',
+  },
+  facesStyle: {
+    flex: 1,
+    alignSelf: 'center',
+  },
+  priceStyle: {
+    flex: 1 / 5,
+    fontSize: 18,
+    alignSelf: 'center',
+    textAlign: 'right',
+    color: '#85bb65',
+  },
+  switchText: {
+    paddingHorizontal: 10,
   },
 })
